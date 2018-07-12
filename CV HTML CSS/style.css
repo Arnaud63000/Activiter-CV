@@ -1,0 +1,62 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #FFF0C1;
+}
+h1
+{
+    
+    text-align: center;
+}
+.information
+{
+    text-align: center;
+}
+img
+{
+    float: right;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 10px;
+    right: 200px;
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px 15px black;
+}
+.barre
+{
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    background-color: #403C30;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+.info-CV
+{
+    position: relative;
+    color: #F33C30;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 1.1em;
+}
+.competences
+{
+    margin-left: 50px;
+    color: #13B1DF;
+}
+.experiences
+{
+    color: #13B1DF;
+}
+.formation
+{
+    color: #13B1DF;
+}
+
